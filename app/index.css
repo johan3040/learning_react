@@ -50,7 +50,11 @@ nav {
     cursor: pointer;
 }
 
-main {
+.loading {
+    text-align: center;
+}
+
+.cardContainer {
     width: 80vw;
     margin: auto;
     display: flex;
@@ -124,4 +128,22 @@ main {
 .dark {
     background-color: rgb(34, 34, 34);
     color: #fff;
+}
+
+.joke {
+    text-align: center;
+    padding: 2rem;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.jokeLink {
+    text-decoration: none;
+    color: black;
 }

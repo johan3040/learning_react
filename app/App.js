@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import Nav from './components/Nav';
 import Main from './components/Main';
-import Cats from './components/Cats';
-
 import { ThemeProvider } from './contexts/theme';
-
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 export class App extends Component {
